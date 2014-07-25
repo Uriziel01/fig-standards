@@ -62,13 +62,14 @@ function autoload($className)
 }
 ```
 
-SplClassLoader Implementation
+Implementacja SplClassLoader
 -----------------------------
 
-The following gist is a sample SplClassLoader implementation that can
-load your classes if you follow the autoloader interoperability
-standards proposed above. It is the current recommended way to load PHP
-5.3 classes that follow these standards.
+Następujący skrót jest przykładem implementacji SplClassLoader który może 
+ładować Twoja klasy jeżeli przestrzegasz zaproponowanych powyżej
+standardów interoperatywności.
+Jest to obecnie zalecany sposób ładowania klas PHP 5.3 które
+przestrzegają tych standardów.
 
 * [http://gist.github.com/221634](http://gist.github.com/221634)
 
